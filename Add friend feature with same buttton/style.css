@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: wheat;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#box{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 14px;
+    padding: 30px;
+    text-align: center;
+}
+
+#box img {
+    height:50% ;
+    width: 100% ;
+    object-fit: cover;
+    object-position: center ;
+    border-radius: 12px;
+}
+
+#box h5{
+    color: red;
+    padding-top: 16px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+#box h1{
+ padding-top: 20px;
+}
+
+#btn-container{
+    padding: 16px;
+
+}
+#box button{
+    padding: 20px 40px;
+    border-radius: 12px;
+    border: 1px solid rgb(247, 229, 197);
+    background-color: rgb(254, 242, 223);
+    font-weight: bold;
+    cursor: pointer;
+    color: green;
+}
+#box #btnRemove{
+ background-color: #e7e7e7;
+}
+
